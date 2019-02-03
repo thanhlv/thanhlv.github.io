@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Thanh Le Van</title>
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Google font-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300|Raleway:300,400,900,700italic,700,300,600' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap CSS-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--Custom css-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" onload="myFunction()">
+
+    <div class="loader"></div>
+    <div id="myDiv">
+    <!--HEADER-->
+    <div class="header">
+      <div class="bg-color">
+        <header id="main-header">
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Thanh Le Van<span class="logo-dec"></span></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li class=""><a href="#feature">News</a></li>
+                <li class=""><a href="#blog">Research</a></li>
+                <li class=""><a href="#publication">Publications</a></li>
+                <li class=""><a href="#software">Software</a></li>
+                <li class=""><a href="img/web-cv.pdf">CV</a></li>
+                <li class=""><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        </header>
+        <div class="wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="banner-info text-left">  
+	      <h1 class="bnr-title">Profile</h1> 
+			<p class="bnr-para">I am a data mining and machine learning researcher in the Computational Biology group of the Janssen Pharmaceutical Companies of Johnson & Johnson. I study and develop algorithms for drug discovery to treat diseases.</p>
+	  <p>&nbsp;</p
+            <p class="bnr-para">I was a postdoctoral researcher in INRIA, <a href="https://team.inria.fr/magnet/"><span class="logo-dec">MAGNET </span></a>group in Lille, France, during the period from March 2017 to mid of June 2018, under the supervision of <a href="http://researchers.lille.inria.fr/jramon/"><span class="logo-dec">Jan Ramon</span></a>. </p>
+		<p>&nbsp;</p
+		<p> I received my PhD from the Machine Learning group, DTAI lab, Department of Computer Science, KU Leuven. My PhD promotors were <a href="https://people.cs.kuleuven.be/~luc.deraedt/"><span class="logo-dec">Prof.Luc De Raedt</span></a>, <a href="http://liacs.leidenuniv.nl/~nijssensgr/"><span class="logo-dec">Prof.Siegfried Nijssen</span></a> and <a href="http://bioinformatics.psb.ugent.be/DBN/"><span class="logo-dec">Prof.Kathleen Marchal</span></a>.
+		I obtained MSc of ICT from Asian Institute of Techonology (AIT), Thailand, where I was supervised by <a href="http://www.ict.mahidol.ac.th/faculty_staff/profile.asp?id=peter.had"><span class="logo-dec">Prof.Peter Haddawy</span></a>.</p>
+	      <p>&nbsp;</p>
+	      <h1 class="bnr-title">Research expertises and interests</h1> 
+		  <p>Within machine learning, I have expertise in Probabilistic Graphical Models, Bayesian modelling, Deep Learning. I have applied Deep Neural Networks and Bayesian Matrix Factorization to predict drug-target interactions within the European Research Project named ExCAPE (http://www.excape-h2020.eu/). </p>
+
+			<p>Within data mining, I have expertise in explorative data mining using principles of optimization such as Constraint Programming, Integer Programming, Matrix Factorization, and model selection using Minimum Description Length. Typical work in this direction is the introduction of a general framework called Semiring Rank Matrix Factorization (sRMF) for mining different type of patterns in ranked data. We successfully applied sRMF to integrate heterogeneous data, including mutation data, CNV data, gene expression and prior knowledge encoded in protein-protein interaction networks to simultaneously discover cancer subtypes and subtype features. 	</p>
+	      <p class="bnr-para"> I am currently interested in declarative data mining and probabilistic machine learning algorithms to discover (relational) patterns from streaming data.</p>
+              <p class="bnr-para">My goal is to develop machine learning/data mining algorithms to address problems that matter. Main applications will possibly be in the medical domains, for example, integrating heterogeneous data, omics data and imaging data, to study cancer subtypes and cancer evolution. Other domains might include traffic and econmic networks.</p>
+              <div class="overlay-detail text-center" >
+                <a href="#feature"><i class="fa fa-angle-down"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <!--/ HEADER-->
+    <!---->
+    <section id="feature" class="section-padding">
+      <div class="container">
+        <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="service-title pad-bt15">News</h2>            
+            <hr class="bottom-line">
+          </div>          
+        </div>
+       <!-- -->
+       	<div class="list-group">
+	 <a href="#" class="list-group-item ">
+	  <!-- <h4 class="list-group-item-heading">18.10.2016</h4> -->
+	  <p class="list-group-item-text"> 18.10.2016 The website is online.</p>
+	</a>
+	</div>
+      </div>
+    </section>
+    <!---->
+<section id="blog" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="service-title pad-bt15">Recent Works</h2>
+            <p class="sub-title pad-bt15">We develop matrix factorisation methods for pattern set mining in rank data, i.e., data consists of ranking of items, and apply those methods in discovering cancer subtypes and subtype specific features simultaneously.</p>
+            <hr class="bottom-line">
+          </div>          
+        </div>
+	<!-- first carousel -->
+	<div class="row">
+          <div class="col-md-4 portfolio-item padding-right-zero mr-btn-15">
+		<div class="carousel slide" id="myCarousel">
+                    <figure>
+              <img src="img/rmf_icon.jpg" class="img-responsive">
+              <figcaption>
+                  <!--<h2>Project For Everyone</h2>-->
+                  <p>RMF factorises matrix M into a product of a binary matrix C and a rank matrix F. Each row of F is a rank vector with many zeros, i.e., a local pattern. Each column of C indicates in which rows the corresponding rank vector appears.</p>
+              </figcaption>
+            </figure>                         
+                </div>                            
+	  </div>
+	  <div class="col-md-8" id="carousel-text">                
+                    <h2 class="bnr-title">Rank Matrix Factorisation (RMF) for pattern set mining in rank data</h2>
+                    <p>&nbsp;</p>
+                    <p class="sub-text">We introduce a generic rank matrix factorisation framework based on semiring theory for pattern set mining in rank data. In this type of data, each row is a complete or partial ranking of the columns.</p>
+		    <p>We succesfully apply the RMF framework for discovering different types of patterns in rank matrices, e.g., Sparse RMF and and ranked tiling, and for cancer subtyping.</p>
+		    <p class="read-more">References: Le Van et al., Semiring rank matrix factorisation; Le Van et al., Rank matrix factorisation, PAKDD (2015).</p>
+
+         </div>
+
+	</div>
+	<!-- end first carousel -->
+
+	<!-- second carousel -->
+	<div class="row">
+          <div class="col-md-4 portfolio-item padding-right-zero mr-btn-15">
+		<div class="carousel slide" id="sparsermfCarousel">
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+                        <div class="active item" data-slide-number="0">
+                        <img src="img/sparse_rmf_icon.jpg"></div>
+
+                        <div class="item" data-slide-number="1">
+                        <img src="img/sparse_rmf_exp1.jpg"></div>
+
+                        <div class="item" data-slide-number="2">
+                        <img src="img/sparse_rmf_exp2.jpg"></div>
+                    </div><!-- Carousel nav -->
+                    <a class="left carousel-control" href="#sparsermfCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>                                       
+                    </a>
+                    <a class="right carousel-control" href="#sparsermfCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>                                       
+                    </a>                              
+                </div>                            
+	  </div>
+	  <div class="col-md-8" id="sparsermf-carousel-text"></div>
+		<div id="sparsermf-slide-content" style="display: none;">
+                <div id="sparsermf-slide-content-0">
+                    <h2 class="bnr-title">Sparse RMF</h2>
+                    <p>&nbsp;</p>
+                    <p class="sub-text">Sparse RMF, an instance of the RMF problem, discovers a set of (partial) rankings repeatedly occurring in the data. Such sets of partial rankings can be used to succinctly summarise the given rank matrix and show the main categories of the rankings.</p>
+		   <p class="read-more">References: Le Van et al., Semiring rank matrix factorisation; Le Van et al., Rank matrix factorisation, PAKDD (2015).</p>
+
+                </div>
+
+                <div id="sparsermf-slide-content-1">
+                    <h2 class="bnr-title">Sparse RMF experiments with the European Song Festival Contests (2010-2013)</h2>
+                    <p>&nbsp;</p>
+                    <p class="sub-text">Sparse RMF reveals voting patterns for Western and Nordic countries .</p>
+                </div>
+
+                <div id="sparsermf-slide-content-2">
+                    <h2 class="bnr-title">Sparse RMF experiments with the European Song Festival Contests (2010-2013)</h2>
+                    <p>&nbsp;</p>
+                    <p class="sub-text">Sparse RMF reveals voting patterns for countries in Eastern Europe.</p>
+                </div>
+                
+            	</div>
+
+	</div>
+	<!-- end second carousel -->
+
+<!-- third carousel -->
+	<div class="row">
+          <div class="col-md-4 portfolio-item padding-right-zero mr-btn-15">
+		<div class="carousel slide" id="rtCarousel">
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+                        <div class="active item sparsermf" rt-data-slide-number="0">
+                        <img src="img/ranked_tiling_icon.jpg"></div>
+
+                        <div class="item sparsermf" rt-data-slide-number="1">
+                        <img src="img/ranked_tiling_ex.jpg"></div>
+                    </div><!-- Carousel nav -->
+                    <a class="left carousel-control" href="#rtCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>                                       
+                    </a>
+                    <a class="right carousel-control" href="#rtCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>                                       
+                    </a>                              
+                </div>                            
+	  </div>
+	  <div class="col-md-8" id="rt-carousel-text"></div>
+		<div id="slide-content" style="display: none;">
+                <div id="rt-slide-content-0">
+                    <h2 class="bnr-title">Ranked tiling</h2>
+                    <p>&nbsp;</p>
+                    <p class="sub-text">Ranked tiling, an instance of the RMF problem, discovers a set of ranked tiles, which are data regions having high ranks. Such regions are interesting as they show local associations between a subset of the columns and a subset of the rows.</p>
+		<p class="read-more">References: Le Van et al., Semiring rank matrix factorisation; Le Van et al., Ranked tiling, ECML/PKDD (2014).</p>
+                </div>
+
+                <div id="rt-slide-content-1">
+                    <h2 class="bnr-title">Ranked tiling with heterogeneous TCGA breast cancer</h2>
+                    <p>&nbsp;</p>
+                    <p class="sub-text">Sparse RMF reveals voting patterns for Western and Nordic countries .</p>
+                </div>
+
+            	</div>
+
+	</div>
+	<!-- end third carousel -->
+
+<!-- four carousel -->
+	<div class="row">
+          <div class="col-md-4 portfolio-item padding-right-zero mr-btn-15">
+		<div class="carousel slide" id="srfCarousel">
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+                        <div class="active item" srf-data-slide-number="0">
+                        <img src="img/srf_icon.jpg"></div>
+
+                        <div class="item" srf-data-slide-number="1">
+                        <img src="img/srf_icon_ex.jpg"></div>
+                    </div><!-- Carousel nav -->
+                    <a class="left carousel-control" href="#srfCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>                                       
+                    </a>
+                    <a class="right carousel-control" href="#srfCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>                                       
+                    </a>                              
+                </div>                            
+	  </div>
+	  <div class="col-md-8" id="srf-carousel-text"></div>
+		<div id="slide-content" style="display: none;">
+                <div id="srf-slide-content-0">
+                    <h2 class="bnr-title">SRF - Subtyping through Ranked Factors</h2>
+                    <p>&nbsp;</p>
+                    <p class="sub-text">SRF integrates molecular data, including Boolean mutation data, numeric gene expression and prior knowledged encoded in a biological network, to simultaneously discover cancer subtypes and subtype specific features.</p>
+		    <p class="read-more">References: Le Van et al., Simultaneous discovery of cancer subtypes and subtype features by molecular data integration, Bioinformatics (2016).</p>
+                </div>
+
+                <div id="srf-slide-content-1">
+                    <h2 class="bnr-title">Ranked tiling with heterogeneous TCGA breast cancer</h2>
+                    <p>&nbsp;</p>
+                    <p class="sub-text">Sparse RMF reveals voting patterns for Western and Nordic countries .</p>
+                </div>
+		
+            	</div>
+
+	</div>
+	<!-- end four carousel -->
+
+      </div> <!-- end container -->
+    </section>
+
+
+    <!---->
+    <section id="publication" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="service-title pad-bt15">Publications</h2>
+            <!--<p class="sub-title pad-bt15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.</p>-->
+            <hr class="bottom-line">
+          </div>          
+        </div>
+       <!-- -->
+       <div class="list-group">
+	<a href="#" class="list-group-item ">
+	  <h4 class="list-group-item-heading">1. Semiring rank matrix factorisation</h4>
+	  <p class="list-group-item-text">Thanh Le Van, Siegfried Nijssen, Matthijs van Leeuwen and Luc De Raedt</p>
+	  <p class="list-group-item-text">
+	    <span class="label label-primary">Journal article</span>
+	    IEEE Transactions on Knowledge and Data Engineering, DOI: 10.1109/TKDE.2017.2688374.
+	  </p>	
+	    <a class="btn btn-link" data-toggle="collapse" href="#srmf-abs" aria-expanded="false" >
+	      Abstract
+	    </a>	    
+	    <a class="btn btn-link" data-toggle="collapse" href="#srmf-bibtex" aria-expanded="false" >
+	      Bibtex
+	    </a>	    
+	    <div id="srmf-abs" class="collapse">
+	      <div class="well">
+	      Rank data, in which each row is a complete or partial ranking of available items (columns), is ubiquitous. It  has been used to represent, for instance, preferences of users,  the levels of gene expression, and the outcomes of sports events.  While rank data has been analysed in data mining, pattern mining in such data has so far not received much attention. To alleviate this state of affairs, we introduce a novel pattern set mining approach. It is based on a semiring matrix factorisation framework.  Rather than using the traditional linear algebra for matrix factorisation we employ the max-product semiring. Our semiring matrix factorisation framework is then applied to two tasks: sparse rank matrix factorisation and ranked tiling. Algorithms for these tasks are proposed, and their  effectiveness is demonstrated on extensive experiments using both synthetic and real data.
+	      </div>
+	    </div>	      
+	    <div id="srmf-bibtex" class="collapse">
+	      <div class="well">
+	      To be added.
+	      </div>
+	    </div>
+	</a>
+	<a href="#" class="list-group-item ">
+	  <h4 class="list-group-item-heading">2. Simultaneous discovery of cancer subtypes and subtype features by molecular data integration</h4>
+	  <p class="list-group-item-text">Thanh Le Van, Matthijs van Leeuwen, Ana Carolina Fierro, Dries De Maeyer, Jimmy Van den Eynden, Lieven Verbeke, Luc De Raedt, Kathleen Marchal, and Siegfried Nijssen </p>
+	  <p class="list-group-item-text">
+	    <span class="label label-primary">Journal article</span>
+	    Bioinformatics (2016) 32 (17): i445-i454 doi:10.1093/bioinformatics/btw434 
+	  </p>
+	  <a class="btn btn-link" data-toggle="collapse" href="#srf-abs" aria-expanded="false" >
+	      Abstract
+	    </a>	    
+	    <a class="btn btn-link" data-toggle="collapse" href="#srf-bibtex" aria-expanded="false" >
+	      Bibtex
+	    </a>
+	    <a class="btn btn-link" href="#srf-bibtex" aria-expanded="false" >
+	      Pdf
+	    </a>
+	    <a class="btn btn-link" href="#srf-bibtex" aria-expanded="false" >
+	      Code
+	    </a>
+	    <div id="srf-abs" class="collapse">
+	      <div class="well">
+	      <p>Subtyping cancer is key to an improved and more personalized prognosis/treatment. The increasing availability of tumor related molecular data provides the opportunity to identify molecular subtypes in a data-driven way. Molecular subtypes are defined as groups of samples that have a similar molecular mechanism at the origin of the carcinogenesis. The molecular mechanisms are reflected by subtype-specific mutational and expression features.</p>
+	      <p>Data-driven subtyping is a complex problem as subtyping and identifying the molecular mechanisms that drive carcinogenesis are confounded problems. Many current integrative subtyping methods use global mutational and/or expression tumor profiles to group tumor samples in subtypes but do not explicitly extract the subtype-specific features.
+	      We therefore present a method that solves both tasks of subtyping and identification of subtype-specific features simultaneously. Hereto our method  integrates mutational and expression data while taking into account the clonal properties of carcinogenesis. Key to our method is a formalisation of the problem as a \emph{rank matrix factorisation} of \emph{ranked data} that approaches the subtyping problem as \emph{multi-view bi-clustering}.</p>
+	      </div>
+	    </div>	      
+	    <div id="srf-bibtex" class="collapse">
+	      <div class="well">
+	      To be added.
+	      </div>
+	    </div>
+	</a>
+	<a href="#" class="list-group-item ">
+	  <h4 class="list-group-item-heading">3. Rank matrix factorisation</h4>
+	  <p class="list-group-item-text">Thanh Le Van, Matthijs van Leeuwen, Siegfried Nijssen and Luc De Raedt</p>
+	  <p class="list-group-item-text">
+	    <span class="label label-warning">Conference paper</span>
+	    The 19th Pacific-Asia conference on knowledge discovery and data mining (PAKDD 2015). HoChiMinh City, VietNam, 19-22 May 2015 (pp. 734-746) Springer. 
+	  </p>
+	  <a class="btn btn-link" data-toggle="collapse" href="#rmf-abs" aria-expanded="false" >
+	      Abstract
+	    </a>	    
+	    <a class="btn btn-link" data-toggle="collapse" href="#rmf-bibtex" aria-expanded="false" >
+	      Bibtex
+	    </a>
+	    <a class="btn btn-link" href="#srf-bibtex" aria-expanded="false" >
+	      Pdf
+	    </a>
+	    <a class="btn btn-link" href="#srf-bibtex" aria-expanded="false" >
+	      Code
+	    </a>
+	    <div id="rmf-abs" class="collapse">
+	      <div class="well">
+	      <p>We introduce the problem of \emph{rank matrix factorisation} (RMF). That is, we consider the decomposition of a rank matrix, in which each row is a (partial or complete) ranking of all columns. Rank matrices naturally appear in many applications of interest, such as sports competitions. Summarising such a rank matrix by two smaller matrices, in which one contains partial rankings that can be interpreted as local patterns, is therefore an important problem.
+	      </p>
+	      <p>After introducing the general problem, we consider a specific instance called Sparse RMF, in which we enforce the rank profiles to be sparse, i.e., to contain many zeroes. We propose a greedy algorithm for this problem based on integer linear programming. Experiments on both synthetic and real data demonstrate the potential of rank matrix factorisation.</p>
+	      </div>
+	    </div>	      
+	    <div id="rmf-bibtex" class="collapse">
+	      <div class="well">
+	      To be added.
+	      </div>
+	    </div>
+	</a>
+	<a href="#" class="list-group-item ">
+	  <h4 class="list-group-item-heading">4. Ranked tiling</h4>
+	  <p class="list-group-item-text">Thanh Le Van, Matthijs van Leeuwen, Siegfried Nijssen,Ana Carolina Fierro, Kathleen Marchal and Luc De Raedt</p>
+	  <p class="list-group-item-text">
+	    <span class="label label-warning">Conference paper</span>
+	    The European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases 2014 (ECML/PKDD 2014), Nancy, France, 15-19 September 2014, (pp. 98-113) Springer.
+	  </p>
+	  <a class="btn btn-link" data-toggle="collapse" href="#rt-abs" aria-expanded="false" >
+	      Abstract
+	    </a>	    
+	    <a class="btn btn-link" data-toggle="collapse" href="#rt-bibtex" aria-expanded="false" >
+	      Bibtex
+	    </a>
+	    <a class="btn btn-link" href="#srf-bibtex" aria-expanded="false" >
+	      Pdf
+	    </a>
+	    <a class="btn btn-link" href="#srf-bibtex" aria-expanded="false" >
+	      Code
+	    </a>
+	    <div id="rt-abs" class="collapse">
+	      <div class="well">
+	      <p>Tiling is a well-known pattern mining technique. Traditionally, it discovers large areas of ones in binary databases or matrices, where an area is defined by a set of rows and a set of columns. %However, it cannot be applied on data that is not binary. In this paper, we introduce the novel problem of {\em ranked} tiling, which is concerned with finding interesting areas in ranked data. In this data, each transaction defines a complete ranking of the columns. Ranked data occurs naturally in applications like sports or other competitions. It is also a useful abstraction when dealing with numeric data in which the rows are incomparable.% due do incompatible scales. 
+	      </p>
+	      <p>We introduce a scoring function for ranked tiling, as well as an algorithm using constraint programming and optimization principles. We empirically evaluate the approach on both synthetic and real-life datasets, and demonstrate the applicability of the framework in several case studies. One case study involves a heterogeneous dataset concerning the discovery of biomarkers for different subtypes of breast cancer patients. An analysis of the tiles by a domain expert shows that our approach can lead to the discovery of novel insights.</p>
+	      </div>
+	    </div>	      
+	    <div id="rt-bibtex" class="collapse">
+	      <div class="well">
+	      To be added.
+	      </div>
+	    </div>
+	</a>	
+	<a href="#" class="list-group-item ">
+	  <h4 class="list-group-item-heading">5. Mining local staircase patterns from noisy data</h4>
+	  <p class="list-group-item-text">Thanh Le Van, Ana Carolina Fierro, Tias Guns, Matthijs van Leeuwen, Siegfried Nijssen, Luc De Raedt and Kathleen Marchal</p>
+	  <p class="list-group-item-text">
+	    <span class="label label-warning">Workshop paper</span>
+	    International workshop on Co-Clustering and Applications (CoClus'12) in conjunction with IEEE ICDM 2012. Brussels, 10 December 2012 (pp. 139-146) IEEE Computer Society.
+	  </p>
+	  <a class="btn btn-link" data-toggle="collapse" href="#staircase-abs" aria-expanded="false" >
+	      Abstract
+	    </a>	    
+	    <a class="btn btn-link" data-toggle="collapse" href="#staircase-bibtex" aria-expanded="false" >
+	      Bibtex
+	    </a>
+	    <a class="btn btn-link" href="#srf-bibtex" aria-expanded="false" >
+	      Pdf
+	    </a>
+	    <a class="btn btn-link" href="#srf-bibtex" aria-expanded="false" >
+	      Code
+	    </a>
+	    <div id="staircase-abs" class="collapse">
+	      <div class="well">
+	      <p>Most traditional biclustering algorithms identify biclusters with no or little overlap. In this paper, we introduce the problem of identifying staircases of biclusters. Such staircases may be indicative for causal relationships between columns and can  not  easily  be  identified  by  existing  biclustering  algorithms. Our  formalization relies on a scoring function based on the Minimum Description Length principle.  Furthermore, we propose a first algorithm for identifying staircase biclusters, based on a combination of local search and constraint programming. Experiments show that the approach is promising. 
+	      </p>
+	      </div>
+	    </div>	      
+	    <div id="staircase-bibtex" class="collapse">
+	      <div class="well">
+	      To be added.
+	      </div>
+	    </div>
+	</a>	
+	<!-- begin paper -->
+	<a href="#" class="list-group-item ">
+	  <h4 class="list-group-item-heading">6. Deriving financial aid optimization models from admissions data</h4>
+	  <p class="list-group-item-text">Thanh Le Van and Peter Haddawy</p>
+	  <p class="list-group-item-text">
+	    <span class="label label-warning">Conference paper</span>
+	    37th Annual Frontiers In Education Conference - Global Engineering: Knowledge Without Borders, Opportunities Without Passports, 2007 (pp. F2A-7-F2A-12), IEEE Computer Society.
+	  </p>
+	  <a class="btn btn-link" data-toggle="collapse" href="#faid-abs" aria-expanded="false" >
+	      Abstract
+	    </a>	    
+	    <a class="btn btn-link" data-toggle="collapse" href="#faid-bibtex" aria-expanded="false" >
+	      Bibtex
+	    </a>
+	    <a class="btn btn-link" href="#faid-bibtex" aria-expanded="false" >
+	      Pdf
+	    </a>	    
+	    <div id="faid-abs" class="collapse">
+	      <div class="well">
+	      <p>This paper presents a novel approach to deriving probabilistic models that predict enrollment given applicant background and the amount of financial aid offered. Our Bayesian network models can be used to optimize various enrollment objectives. We present a novel efficient optimization algorithm that uses the models to maximize expected tuition revenue under capacity constraints including student-faculty ratio and accommodation. We demonstrate and evaluate our approach using four years of graduate admissions data from the Asian Institute of Technology, consisting of 7,788 applicants from 84 different countries. This data set is particularly challenging since reliable family income data is not available for students from most of these countries. Evaluating the Bayesian network model with 10-fold cross validation yields an ROC Az value of 0.8451, with a predictive accuracy of 82.70% at a threshold of 0.5. Comparing the results of the tuition revenue optimization model to the institute's current financial aid allocation practice shows that if single-term tuition revenue is the sole optimization criterion, the institute can achieve its current enrollment numbers while realizing significant savings in its financial aid budget. The prediction and optimization software is currently being incorporated into the institute's online admissions processing system. 
+	      </p>
+	      </div>
+	    </div>	      
+	    <div id="faid-bibtex" class="collapse">
+	      <div class="well">
+	      @INPROCEEDINGS{levan2007,
+	      author={L. V. Thanh and P. Haddawy},
+	      booktitle={2007 37th Annual Frontiers In Education Conference - Global Engineering: Knowledge Without Borders, Opportunities Without Passports},
+	      title={Deriving financial aid optimization models from admissions data},
+	      year={2007},
+	      pages={F2A-7-F2A-12},	      
+	      doi={10.1109/FIE.2007.4417959},
+	      ISSN={0190-5848},
+	      month={Oct}}
+	      </div>
+	    </div>
+	</a>	
+	<!-- end paper -->
+      </div>
+      </div>
+    </section>
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    
+
+    <!---->
+    <!---->
+    
+    <!---->
+    <section id="software" class="section-padding ">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="service-title pad-bt15">Software</h2>
+            <!--<p class="sub-title pad-bt15"></p>-->
+            <hr class="bottom-line">
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="blog-sec">
+              <div class="blog-img">
+                <a href="">
+                  <img src="img/ranked_tiling_sw.jpg" class="img-responsive">
+                </a>
+              </div>
+              <div class="blog-info">
+                <h2>Ranked tiling.</h2>
+                <!--<div class="blog-comment">
+                    <p>Posted In: <span>Legal Advice</span></p>
+                    <p>
+                      <span><a href="#"><i class="fa fa-comments"></i></a> 15</span>
+                      <span><a href="#"><i class="fa fa-eye"></i></a> 11</span></p>
+                </div>-->
+                <p>Ranked tiling discovers a set of ranked tiles, which are data regions having high ranks, in rank matrices. There are two models for ranked tiling. The first model uses Constraint Programming (CP) and the model developed later uses Semiring Rank Matrix Factorisation. They are both implemented in Scala using <a href="https://bitbucket.org/oscarlib/oscar/wiki/Home">OscaR library</a>. The CP implementation uses OscaR CP solver and the other implementation has <a href="http://www.gurobi.com/">Gurobi</a> as the back-end solver.</p>
+                <a href="" class="read-more">Coming soon </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="blog-sec">
+              <div class="blog-img">
+                <a href="">
+                  <img src="img/sparse_rmf_sw.jpg" class="img-responsive">
+                </a>
+              </div>
+              <div class="blog-info">
+                <h2>Sparse RMF.</h2>
+                <!--<div class="blog-comment">
+                    <p>Posted In: <span>Legal Advice</span></p>
+                    <p>
+                      <span><a href="#"><i class="fa fa-comments"></i></a> 15</span>
+                      <span><a href="#"><i class="fa fa-eye"></i></a> 11</span></p>
+                </div>-->
+                <p>Sparse RMF finds a set of partial rankings repeatedly occurring in a rank matrix. Such sets of partial rankings can be used to succinctly summarise the given rank matrix and show the main categories of the rankings. Sparse RMF is implemented in Scala. It uses <a href="https://bitbucket.org/oscarlib/oscar/wiki/Home">OscaR library </a> to write the optimisation model for Sparse RMF, which are Integer Linear Programs, and uses <a href="http://www.gurobi.com/">Gurobi</a> as the back-end solver.</p>
+                <a href="https://dtai.cs.kuleuven.be/CP4IM/RMF/" class="read-more">Sourcecode </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="blog-sec">
+              <div class="blog-img">
+                <a href="">
+                  <img src="img/srf_sw.jpg" class="img-responsive">
+                </a>
+              </div>
+              <div class="blog-info">
+                <h2>SRF - Subtyping through Ranked Factors.</h2>
+                <!--<div class="blog-comment">
+                    <p>Posted In: <span>Legal Advice</span></p>
+                    <p>
+                      <span><a href="#"><i class="fa fa-comments"></i></a> 15</span>
+                      <span><a href="#"><i class="fa fa-eye"></i></a> 11</span></p>
+                </div>-->
+                <p>SRF integrates Boolean mutation data, numeric gene expression data (microarray or RNASeq), and prior knowledge encoded in biological networks to discover cancer subtypes and subtypes features. SRF is implemented in Scala using  <a href="https://bitbucket.org/oscarlib/oscar/wiki/Home">OscaR library </a> and <a href="http://www.gurobi.com/">Gurobi</a> solver.</p>
+                <a href="https://github.com/rankmatrixfactorisation/SRF" class="read-more">Github</a> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---->
+    <section id="contact" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center white">
+            <h2 class="service-title pad-bt15">Contact</h2>
+            <hr class="bottom-line white-bg">
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="loction-info white">
+              <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>MAGNET group<br>INRIA in Lille - France</p>
+              <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>thanh.le-van@inria.fr</p>
+              <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>thanhlv@gmail.com</p>
+              <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+33769094168</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="contact-form">
+              <form>
+                <div class="col-md-6 padding-right-zero">
+                  <div class="form-group">
+                    <input class="form-control" placeholder="Name" type="text">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input class="form-control" placeholder="Phone No" type="text">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <input type="text" placeholder="Enter Subject" class="form-control">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <textarea class="form-control" placeholder="Messages"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-submit">SEND NOW</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---->
+    <!---->
+    <footer id="footer">
+      <div class="container">
+        <div class="row text-center">
+	  <p>Last updated July 26, 2017.</p>
+          <p>Made with <a href="http://www.themeshouter.com">Bootstrap Baker</a> template.</p>
+        </div>
+      </div>
+    </footer>
+    <!---->
+  </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- bxSlider Javascript file -->
+    <script src="js/jquery.bxslider.min.js"></script>
+      <script>
+       $('.bxslider').bxSlider({
+          adaptiveHeight: true,
+          mode: 'fade'
+        });
+
+       $(document).ready(function(){
+
+        //Check to see if the window is top if not then display button
+        $(window).scroll(function(){
+          if ($(this).scrollTop() > 100) {
+            $('.scrollToTop').fadeIn();
+          } else {
+            $('.scrollToTop').fadeOut();
+          }
+        });
+        
+          //Click event to scroll to top
+          $('.scrollToTop').click(function(){
+            $('html, body').animate({scrollTop : 0},800);
+            return false;
+          });
+          
+        });
+
+      </script>
+      <script>
+      $(document).ready(function(){
+	
+	//start for carouel
+	$('#myCarousel').carousel({
+                interval: 0
+        });
+	$('#sparsermfCarousel').carousel({
+                interval: 0
+        });
+	$('#rtCarousel').carousel({
+                interval: 0
+        });
+	$('#srfCarousel').carousel({
+                interval: 0
+        });
+ 
+        $('#carousel-text').html($('#slide-content-0').html());
+	$('#sparsermf-carousel-text').html($('#sparsermf-slide-content-0').html());
+	$('#rt-carousel-text').html($('#rt-slide-content-0').html());
+	$('#srf-carousel-text').html($('#srf-slide-content-0').html());
+ 
+        //Handles the carousel thumbnails
+       //$('[id^=carousel-selector-]').click( function(){
+        //    var id = this.id.substr(this.id.lastIndexOf("-") + 1);
+         //   var id = parseInt(id);
+          //  $('#myCarousel').carousel(id);
+        //});
+ 
+ 
+        // When the carousel slides, auto update the text
+        //$('#myCarousel').on('slid.bs.carousel', function (e) {
+        //         var id = $('.item.active').data('slide-number');
+        //        $('#carousel-text').html($('#slide-content-'+id).html());
+        //});
+	//$('#sparsermfCarousel').on('slid.bs.carousel', function (e) {
+                // var id = this.$element.find('.item.active').data('slide-number');
+		
+        //        $('#sparsermf-carousel-text').html($('#sparsermf-slide-content-'+id).html());
+	//	alert($('#sparsermf-slide-content-'+id).html());
+        //});
+	//$('#rtCarousel').on('slid.bs.carousel', function (e) {
+        //         var id = $('.item.active').data('rt-slide-number');
+        //        $('#rt-carousel-text').html($('#rt-slide-content-'+id).html());
+        //});
+	//$('#srfCarousel').on('slid.bs.carousel', function (e) {
+        //         var id = $('.item.active').data('srf-slide-number');
+        //        $('#srf-carousel-text').html($('#srf-slide-content-'+id).html());
+        //});
+	
+	//end for carouel
+
+        // Add smooth scrolling to all links in navbar + footer link
+        $(".navbar a, footer a[href='#myPage'], .overlay-detail a").on('click', function(event) {
+
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 900, function(){
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+          });
+        });
+      })
+</script>
+  </body>
+</html>
